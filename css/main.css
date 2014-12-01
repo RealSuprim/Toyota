@@ -10,15 +10,15 @@ h1, h2, h3 {
 	font-weight: bold;
 }
 /*Navigation*/
-#nav {
+.nav {
 	margin: 0;
 	padding: 1px 0 0 170px;
 }
-#nav ul {
+.nav ul {
 	margin: 0px;
 	padding: 10px 0 0 0;
 }
-#nav li {
+.nav li {
 	list-style: none;
 	float: left;
 	position: relative;
@@ -26,11 +26,11 @@ h1, h2, h3 {
 	padding: 10px;
 	background-color: #A4A4A4;
 }
-#nav li:hover {
+.nav li:hover {
 	border: think #e5e5e5 inset;
 	background-color: #FF9900;
 }
-#nav ul li a {
+.nav ul li a {
 	color: #2B2B2B;
 	text-align: center;
 	text-decoration: none;
@@ -38,11 +38,11 @@ h1, h2, h3 {
 	height: 30px;
 	display: block;
 }
-#nav ul ul {
+.nav ul ul {
 	position: absolute;
 	display: none;
 }
-#nav ul li:hover ul {
+.nav ul li:hover ul {
 	display: block;
 }
 
