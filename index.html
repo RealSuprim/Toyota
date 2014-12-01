@@ -21,7 +21,7 @@
             <li><a href="#">Buy</a>
               <ul>
                 <li><a href="#">New Cars</a></li>
-                <li><a href="#">Used Cars</a></li>
+                <li><a href="used-cars.html">Used Cars</a></li>
               </ul>
             </li>
             <li><a href="#">Our Technology</a>
@@ -42,16 +42,33 @@
         </div>
 
         <aside class="sidebar">
-          <form action="" name="Login">
-            <p> Username:
-              <input type="text" name="Username" size="15" maxlength="30"/>
-            </p>
-            <p> Password:
-              <input type="password" name="password" size="15" maxlength="30" required="required"/>
-            </p>
-            <p>
-              <input type="button" value="login">
-            </p>
+          <form class="sidebar form" role="form">
+            <div class="form-group">
+              <label for="enter email" class="email"></label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="enterpassword" class="password"></label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> Remember me
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="login">
+                <button type="submit" class="btn btn-default">Sign in</button>
+              </div>
+            </div>
           </form>
         </aside>
       </section>
@@ -61,11 +78,13 @@
       <div id="footer">
         <h3>You can stay in touch</h3>
         <ul>
-          <li><a href="http://www.facebook.com">Facebook</a></li>
-          <li><a href="http://www.twitter.com">Twitter</a></li>
-          <li><a href="mailto:u1316314uel.ac.uk">Send us an Email</a></li>
+          <a href="https://www.facebook.com/toyotauk"> <img src="images/facebook.png" alt="facebook" width="50" height="50"/></a>
+          <a href="https://twitter.com/toyota"> <img src="images/twitter.png" alt="twittier" width="50" height="50"/></a>
+          <a href="mailto:u1316314uel.ac.uk">Send us an Email</a></p>
         </ul>
-        Copyright © 2014 | All Rights Reserved </div>
+        Copyright © 2014 | All Rights Reserved
+
       </div>
+
   </body>
 </html>
