@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <title>John Deere</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+  <div class="header">
+    <table width="100%" style="border-collapse: collapse;">
+    <tr>
+      <td width="10%" valign="middle"><img src="images/jdlogo.gif" alt="logo" height="60"></td>
+      <td width="90%" colspan="2" id="nav" align="right" valign="bottom">
+      <ul>
+      <li><a href="index.html">HOME</a> // </li>
+      <li> <a href="products.html">PRODUCTS</a> // </li>
+      <li> <a href="http://dealerlocator.deere.com/servlet/region=6">STORE LOCATOR</a> // </li>
+	  <li> <a href="register.html">REGISTER</a> // </li>
+      <li> <a href="contact.html">CONTACT US</a> // </li>
+      <li> <a href="about.html">ABOUT US</a></li>
+      </ul>
+      </td>
+    </tr>
+    <tr><td colspan="2" bgcolor="#3C7636" height="20px"></td></tr>
+    <tr><td colspan="2" bgcolor="#F6E400" height="8px"></td></tr>
+    </table>
+  </div>
+  <div class="main">
+	<table width="100%">
+	<form action="form.asp" autocomplete="on">
+	<tr>
+		<td><b>Contact Details</b></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Name:</td>
+		<td><input type="text" name="name" /></td>
+	</tr>
+	<tr>
+		<td>Address:</td>
+		<td><label for="textfield1"></label>
+			<textarea id="textfield1" name="textfield"></textarea></td>
+	</tr>
+	<tr>
+		<td>Contact Number:</td>
+		<td><label for="textfield2"></label>
+			<input type="text" name="security_code" pattern="[0-9]{11}" title="11 Numbers Required" /></td>
+	</tr>
+	<tr>
+		<td>E-mail Address:</td>
+		<td><label for="textfield3"></label>
+			<input type="email" name="email" autocomplete="off"></td>
+	</tr>
+	<tr>
+		<td><b>Payment Details</b></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Type of card :</td>
+		<td><label for="textfield4"></label>
+			<select id="select" size="1" name="select">
+				<option>Visa</option>
+				<option>MasterCard</option>
+				<option>Mestro</option>
+				<option>Visa &amp; Electron</option>
+				<option>Solo</option>
+			</select></td>
+	</tr>
+	<tr>
+		<td>Cardholders Name :</td>
+		<td><label for="textfield5"></label>
+			<input id="textfield5" name="textfield" type="text" /></td>
+	</tr>
+	<tr>
+		<td>Card number :</td>
+		<td><label for="textfield6"></label>
+			<input type="text" name="security_code2" pattern="[0-9]{16}" title="16 Numbers required"></td>
+	</tr>
+	<tr>
+	<td>Expiry date (Month and Year):</td>
+	<td><label for="textfield7"></label>
+		<input type="month" name="expdate" /></td>
+	</tr>
+	<tr>
+		<td>Security code (3 digit numbers at the back of card):</td>
+		<td><label for="textfield8"></label>
+			<input type="text" name="Security_code" pattern="[0-9]{3}" title="Three Numbers Security code"></td>
+	</tr>
+	<tr>
+		<td><input name="button" type="submit" id="button" value="Submit" /></td>
+        <td><input type="reset" name="button" id="button" value="Reset" /></td>
+	</tr>
+	</table>
+  </div>
+  <div class="footer">
+  Visit our pages
+  <a href="https://www.facebook.com/JohnDeere"><img src="images/facebook.png" width="20" height="20" alt=""/></a>
+  <a href="https://twitter.com/johndeere"><img src="images/twitter.png" width="20" height="20" alt=""/></a>
+  <a href="https://www.youtube.com/user/JohnDeere"><img src="images/youtube.png" width="20" height="20" alt=""/></a>
+  </div>
+  </body>
+</html>
