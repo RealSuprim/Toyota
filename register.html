@@ -1,31 +1,45 @@
+<!doctype html>
 <html>
   <head>
-    <title>John Deere</title>
-    <link href="css/styles.css" type="text/css" rel="stylesheet" />
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Register</title>
   </head>
+
   <body>
-  <div class="header">
-    <table width="100%" style="border-collapse: collapse;">
-    <tr>
-      <td width="10%" valign="middle"><img src="images/jdlogo.gif" alt="logo" height="60"></td>
-      <td width="90%" colspan="2" id="nav" align="right" valign="bottom">
-      <ul>
-      <li><a href="index.html">HOME</a> // </li>
-      <li> <a href="products.html">PRODUCTS</a> // </li>
-      <li> <a href="http://dealerlocator.deere.com/servlet/region=6">STORE LOCATOR</a> // </li>
-	  <li> <a href="register.html">REGISTER</a> // </li>
-      <li> <a href="contact.html">CONTACT US</a> // </li>
-      <li> <a href="about.html">ABOUT US</a></li>
-      </ul>
-      </td>
-    </tr>
-    <tr><td colspan="2" bgcolor="#3C7636" height="20px"></td></tr>
-    <tr><td colspan="2" bgcolor="#F6E400" height="8px"></td></tr>
-    </table>
-  </div>
-  <div class="main">
-	<table width="100%">
+
+    <section id="main-container">
+      <div class="header">
+        <center>
+          <a href="index.html"><img src="images/logo.png" alt="Toyota Motors" width="200" height="100" border="0" /></a>
+        </center>
+
+        <div class="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#">Buy</a>
+								<ul>
+									<li><a href="#">New Cars</a></li>
+									<li><a href="used-cars.html">Used Cars</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Our Technology</a>
+								<ul>
+									<li><a href="#">a</a></li>
+									<li><a href="#">User Experience</a></li>
+								</ul>
+							</li>
+                            <li><a href="register.html">Register</a></li>
+							<li><a href="about-us.html">About us</a></li>
+							<li><a href="contact-us.html">Contact us</a></li>
+						</ul>
+					</div>
+      </div>
+
+      <section class='main-content'>
+        <div class='side-content'>
+<table width="100%">
 	<form action="form.asp" autocomplete="on">
 	<tr>
 		<td><b>Contact Details</b></td>
@@ -86,16 +100,58 @@
 			<input type="text" name="Security_code" pattern="[0-9]{3}" title="Three Numbers Security code"></td>
 	</tr>
 	<tr>
-		<td><input name="button" type="submit" id="button" value="Submit" /></td>
-        <td><input type="reset" name="button" id="button" value="Reset" /></td>
+		<td> <input type="submit" value="submit"></td>
+        <td><input type="reset" value="Reset"></td>
 	</tr>
 	</table>
+
+        </div>
+
+        <aside class="sidebar">
+          <form class="sidebar form" role="form">
+  <div class="form-group">
+    <label for="enter email" class="email"></label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
   </div>
-  <div class="footer">
-  Visit our pages
-  <a href="https://www.facebook.com/JohnDeere"><img src="images/facebook.png" width="20" height="20" alt=""/></a>
-  <a href="https://twitter.com/johndeere"><img src="images/twitter.png" width="20" height="20" alt=""/></a>
-  <a href="https://www.youtube.com/user/JohnDeere"><img src="images/youtube.png" width="20" height="20" alt=""/></a>
+  <div class="form-group">
+    <label for="enterpassword" class="password"></label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+    </div>
   </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Remember me
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Sign in</button>
+    </div>
+  </div>
+</form>
+        </aside>
+      </section>
+    </section>
+
+
+    <div id="footer">
+      <h3>You can stay in touch</h3>
+      <ul>
+        <a href="https://www.facebook.com/toyotauk"> <img src="images/facebook.png" alt="facebook" width="50" height="50"/></a>
+        <a href="https://twitter.com/toyota"> <img src="images/twitter.png" alt="twittier" width="50" height="50"/></a>
+        <a href="http://www.youtube.com/user/ToyotaUKTV"> <img src="images/youtube.png" alt="twittier" width="50" height="50"/></a>
+      </ul>
+      Copyright © 2014 | All Rights Reserved
+
+    </div>
+    
+
   </body>
 </html>
