@@ -1,12 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
+header, footer, aside, section, nav, article, figure, figcaption{
+	display: block;
+}
+
 body {
 	background-color: #FFFFFF;
 }
  @media screen and (max-width:480px) {
        #sidebar { display: none;}
         }
-  
+
 
 h1, h2, h3 {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
