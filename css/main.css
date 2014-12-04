@@ -4,8 +4,10 @@ header, footer, aside, section, nav, article, figure, figcaption{
 	display: block;
 }
 
-body {
-	background-color: #FFFFFF;
+body
+{ background-image:url(../images/bg.png);
+	background-size: 100em 100em;
+	background-repeat: no-repeat;
 }
  @media screen and (max-width:480px) {
        #sidebar { display: none;}
@@ -61,6 +63,8 @@ h1, h2, h3 {
 	width: 980px;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: #FFFFFF;
+	overflow:hidden;
 }
 .main-content{
 	width: 100%;
@@ -205,6 +209,18 @@ div.desc {
 }
 
 
+/*homegallery*/
+.homegallery img{
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+-moz-opacity: 0.5;
+opacity: 0.5;
+}
+
+.homegallery:hover img{
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+-moz-opacity: 1;
+opacity: 1;
+}
 /*footer*/
 
 #footer {
